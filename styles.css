@@ -41,6 +41,7 @@ main {
   text-align: center;
   background-color: var(--Dark-Grayish-Blue);
   border-radius: 16px;
+  position: relative;
 }
 
 .advice-id {
@@ -78,6 +79,10 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: box-shadow 0.1s;
 }
 
 .btn-container:hover {
