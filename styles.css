@@ -94,6 +94,23 @@ img {
   height: 40%;
 }
 
+footer {
+  height: 10vh;
+  background-color: var(--Dark-Grayish-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.attribution {
+  color: var(--Light-Cyan);
+  text-align: center;
+}
+.attribution a {
+  color: var(--Neon-Green);
+}
+
 @media (max-width: 375px) {
   .mobile {
     display: block;
